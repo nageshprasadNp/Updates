@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[db is connected]]>
+    </line>
+    <line>
+      <![CDATA[db is closed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-07-03T07:40:43 IST" name="Default suite" finished-at="2022-07-03T07:41:48 IST" duration-ms="65376">
+    <groups>
+    </groups>
+    <test started-at="2022-07-03T07:40:43 IST" name="Default test" finished-at="2022-07-03T07:41:48 IST" duration-ms="65376">
+      <class name="com.crm.vtiger.contacts.CreateNewContactsTest">
+        <test-method is-config="true" signature="dbConfig()[pri:0, instance:com.crm.vtiger.contacts.CreateNewContactsTest@16a0ee18]" started-at="2022-07-03T07:40:43 IST" name="dbConfig" finished-at="2022-07-03T07:40:43 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[db is connected]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- dbConfig -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.vtiger.contacts.CreateNewContactsTest@16a0ee18]" started-at="2022-07-03T07:40:43 IST" name="launchBrowser" finished-at="2022-07-03T07:41:02 IST" duration-ms="19675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="loginToAppln()[pri:0, instance:com.crm.vtiger.contacts.CreateNewContactsTest@16a0ee18]" started-at="2022-07-03T07:41:02 IST" name="loginToAppln" finished-at="2022-07-03T07:41:09 IST" duration-ms="6292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToAppln -->
+        <test-method signature="createContactTest()[pri:0, instance:com.crm.vtiger.contacts.CreateNewContactsTest@16a0ee18]" started-at="2022-07-03T07:41:09 IST" name="createContactTest" finished-at="2022-07-03T07:41:42 IST" duration-ms="33386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactTest -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:com.crm.vtiger.contacts.CreateNewContactsTest@16a0ee18]" started-at="2022-07-03T07:41:42 IST" name="logOut" finished-at="2022-07-03T07:41:45 IST" duration-ms="2688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:com.crm.vtiger.contacts.CreateNewContactsTest@16a0ee18]" started-at="2022-07-03T07:41:45 IST" name="closeTheBrowser" finished-at="2022-07-03T07:41:48 IST" duration-ms="3288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+        <test-method is-config="true" signature="closeDbConfig()[pri:0, instance:com.crm.vtiger.contacts.CreateNewContactsTest@16a0ee18]" started-at="2022-07-03T07:41:48 IST" name="closeDbConfig" finished-at="2022-07-03T07:41:48 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[db is closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeDbConfig -->
+      </class> <!-- com.crm.vtiger.contacts.CreateNewContactsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
